@@ -87,8 +87,8 @@ function TextLink() {
 function Copyright() {
     return (
         <div className={styles.cpr} style={{color: "white"}}>
-            <span>Copyright © 2018-{new Date().getFullYear()} . All rights reserved. </span>
-            <a className={styles.miit} href="https://beian.miit.gov.cn/">京ICP备2022023326号</a>
+            <span>Copyright © 2018-{new Date().getFullYear()} . All rights reserved. &nbsp;</span>
+            <a rel="noreferrer" target="_blank" className={styles.miit} href="https://beian.miit.gov.cn/">京ICP备2022023326号</a>
         </div>
     );
 }
