@@ -1,8 +1,9 @@
 import styles from '../styles/Home/Home.module.css';
 import HeaderBar from "../components/HeaderBar";
 import {Layout} from "antd";
+import FooterBar from "../components/FooterBar";
 
-const {Content, Footer} = Layout;
+const {Content} = Layout;
 
 export default function Home() {
     return (
@@ -11,7 +12,7 @@ export default function Home() {
             <Content className={[styles.content, styles.std_background]}>
                 <Poster/>
             </Content>
-            <Footer className={styles.std_background}></Footer>
+            <FooterBar></FooterBar>
         </Layout>
     );
 }

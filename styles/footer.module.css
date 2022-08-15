@@ -1,0 +1,11 @@
+.outline {
+    background-color: #112143;
+    min-height: 272px;
+    padding: 28px;
+}
+
+.footer {
+    width: 100%;
+    height: 100%;
+    padding: 28px;
+}
