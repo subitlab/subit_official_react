@@ -56,7 +56,39 @@
     }
 
     .frame {
-        width: 500px;
+        margin-left: 5%;
+    }
+}
+
+@media (min-width: 1550px) {
+    .photo {
+        width: 550px;
+        height: 400px;
+        margin-right: 0;
+    }
+
+    .frame {
+        margin-left: 150px;
+    }
+}
+
+@media (min-width: 1800px) {
+    .frame {
+        margin-left: 10%;
+    }
+
+    .photo {
+        margin-right: 10%;
+    }
+}
+
+@media (min-width: 2100px) {
+    .frame {
+        margin-left: 20%;
+    }
+
+    .photo {
+        margin-right: 20%;
     }
 }
 
