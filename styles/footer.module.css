@@ -19,15 +19,15 @@
 .link_bar {
     display: flex;
     flex-direction: row;
-    align-items: start;
+    align-items: flex-start;
     justify-content: space-between;
     transition: all .25s ease-in-out;
 }
 
 .action_bar {
     display: flex;
-    justify-content: end;
-    align-items: start;
+    justify-content: flex-end;
+    align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     transition: all .25s ease-in-out;

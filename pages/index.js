@@ -4,6 +4,8 @@ import {Layout} from "antd";
 import FooterBar from "../components/FooterBar";
 import PageTitle from "./_title";
 import TwoPartDetail from "../components/Home/TwoPartDetail";
+import DutyDetail from "../components/Home/DutyDetail";
+import {useEffect, useRef, useState} from "react";
 
 const {Content} = Layout;
 
@@ -16,11 +18,17 @@ export default function Home() {
                 <Content className={[styles.content, styles.std_background]}>
                     <Poster/>
                     <TwoPartDetail/>
+                    <DutyDetail/>
                 </Content>
                 <FooterBar></FooterBar>
             </Layout>
         </div>
     );
+}
+
+function ZoomIn(e) {
+    console.log(1);
+    console.log(e);
 }
 
 function Poster() {
