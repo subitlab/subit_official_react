@@ -6,7 +6,7 @@ import PageTitle from "../_title";
 import {withRouter} from 'next/router';
 import MemberList from "../../data/member.json";
 
-console.log(MemberList)
+console.log(MemberList);
 const {Content} = Layout;
 
 const Member = (({router}) => {
