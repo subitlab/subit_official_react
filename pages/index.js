@@ -3,6 +3,7 @@ import HeaderBar from "../components/HeaderBar";
 import {Layout} from "antd";
 import FooterBar from "../components/FooterBar";
 import PageTitle from "./_title";
+import TwoPartDetail from "../components/Home/TwoPartDetail";
 
 const {Content} = Layout;
 
@@ -14,6 +15,7 @@ export default function Home() {
                 <HeaderBar></HeaderBar>
                 <Content className={[styles.content, styles.std_background]}>
                     <Poster/>
+                    <TwoPartDetail/>
                 </Content>
                 <FooterBar></FooterBar>
             </Layout>
