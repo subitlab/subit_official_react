@@ -1,5 +1,9 @@
+import styles from "../../styles/Home/components/TwoPartDetail.module.css";
+
 export default function TwoPartDetail() {
     return (
-        <div></div>
+        <section className={styles.section}>
+
+        </section>
     );
 }

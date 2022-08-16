@@ -3,7 +3,8 @@
 }
 
 .content {
-    min-height: calc(100vh - 64px - 200px);
+    padding-top: 64px;
+    min-height: calc(100vh - 200px);
 }
 
 .poster {
@@ -12,7 +13,7 @@
     height: 387px;
     background-size: cover;
     background-position: center;
-    background-image: url("/home/poster.png");
+    background-image: url("/static/home/poster.png");
 }
 
 .overlay {

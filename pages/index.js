@@ -2,18 +2,22 @@ import styles from '../styles/Home/Home.module.css';
 import HeaderBar from "../components/HeaderBar";
 import {Layout} from "antd";
 import FooterBar from "../components/FooterBar";
+import PageTitle from "./_title";
 
 const {Content} = Layout;
 
 export default function Home() {
     return (
-        <Layout>
-            <HeaderBar></HeaderBar>
-            <Content className={[styles.content, styles.std_background]}>
-                <Poster/>
-            </Content>
-            <FooterBar></FooterBar>
-        </Layout>
+        <div>
+            <PageTitle title="SubIT"/>
+            <Layout>
+                <HeaderBar></HeaderBar>
+                <Content className={[styles.content, styles.std_background]}>
+                    <Poster/>
+                </Content>
+                <FooterBar></FooterBar>
+            </Layout>
+        </div>
     );
 }
 
