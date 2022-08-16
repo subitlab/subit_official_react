@@ -31,6 +31,7 @@
 }
 
 .frame {
+    max-width: 100%;
     transition: all .25s ease-in-out;
     width: 450px;
     height: 348px;
@@ -48,6 +49,16 @@
     align-self: stretch
 }
 
+@media (min-width: 1444px) {
+    .photo {
+        width: 550px;
+        height: 400px;
+    }
+
+    .frame {
+        width: 500px;
+    }
+}
 
 @media (max-width: 1260px) {
     @media (min-width: 920px) {
