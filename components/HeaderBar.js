@@ -20,7 +20,7 @@ export default function HeaderBar(props) {
             <div className={styles.container}>
                 <Image style={{cursor: "pointer"}} onClick={() => {
                     Router.push("/");
-                }} height={64} preview={false} alt="logo" src="/static/SubIT-Normal.svg" className={styles.logo}></Image>
+                }} height={64} width={128} preview={false} alt="logo" src="/static/SubIT-Normal.svg" className={styles.logo}></Image>
                 <Actions select={props.select ? props.select : null}/>
                 <ActionsMenuBtn select={props.select ? props.select : null}/>
             </div>
