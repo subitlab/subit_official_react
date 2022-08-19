@@ -1,1 +1,31 @@
-[]
+{
+  "current": [
+    {
+      "uid": 1,
+      "title": "夏博阳",
+      "subtitle": "技术开发&帮助支持",
+      "desc": "一个想学前端没引路人，想写后端被别人抢的菜鸡QAQ\n",
+      "poster": "/static/personal/xby.jpg",
+      "pos": {
+        "y": -70
+      }
+    },
+    {
+      "uid": 2,
+      "title": "张景行",
+      "subtitle": "三角巨神&大金牌",
+      "desc": "一个目前技术水平停留在主流语言都会写个Hello World，外加会用C++写各种东西（然而停留在了c++98/03 & STL）",
+      "poster": "/static/personal/zjx.jpg",
+      "pos": {}
+    },
+    {
+      "uid": 3,
+      "title": "何天阳",
+      "subtitle": "技术开发&肝帝",
+      "desc": "一个特别弱弱弱的人，没事写写代码，划划水。\n有的时候也能排排版（",
+      "poster": "/static/personal/hty.jpg",
+      "pos": {}
+    }
+  ],
+  "honor": []
+}

@@ -31,9 +31,9 @@ export default function xDutyDetail() {
 
 function DutyCard(props) {
     return (
-        <div>
+        <div className={styles.card}>
             <h2>{props.title}</h2>
-            <p>{props.desc}</p>
+            <p className={styles.card_desc}>{props.desc}</p>
         </div>
     );
 }

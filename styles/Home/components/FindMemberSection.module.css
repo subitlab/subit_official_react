@@ -1,0 +1,85 @@
+.body {
+    padding: 50px 165px;
+    height: 561px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: all .25s ease-in-out;
+}
+
+
+@keyframes FadeInAnimation {
+    0% {
+        transform: translateY(100px);
+        filter: opacity(0);
+    }
+
+    100% {
+        transform: none;
+        filter: opacity(1);
+    }
+}
+
+.header {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.title {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.35;
+    width: fit-content;
+    transition: all .25s ease-in-out;
+}
+
+.switch {
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid #d0d0d0;
+    box-shadow: 0 2px 2px 0 rgb(0 0 0 / 14%), 0 1px 5px 0 rgb(0 0 0 / 12%), 0 3px 1px -2px rgb(0 0 0 / 20%);
+    border-radius: 30px;
+    transition: all .25s ease-in-out;
+}
+
+.switch:hover {
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 30%);
+}
+
+.card_group {
+    animation: FadeInAnimation ease .5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    /*flex-wrap: wrap;*/
+    justify-content: center;
+    align-items: center;
+    transition: all .25s ease-in-out;
+}
+
+.card {
+    margin: 0 20px;
+    width: 100px !important;
+    transition: all .25s ease-in-out;
+}
+
+@media (max-width: 1300px) {
+    .body {
+        padding: 50px 50px;
+    }
+}
+
+@media (max-width: 900px) {
+    .body {
+        padding: 50px 30px;
+    }
+}

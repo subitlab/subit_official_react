@@ -1,11 +1,12 @@
-import styles from '../styles/Home/Home.module.css';
+import styles from "../styles/Home/Home.module.css";
 import HeaderBar from "../components/HeaderBar";
 import {Layout} from "antd";
 import FooterBar from "../components/FooterBar";
 import PageTitle from "./_title";
 import TwoPartDetail from "../components/Home/TwoPartDetail";
 import DutyDetail from "../components/Home/DutyDetail";
-import {useEffect, useRef, useState} from "react";
+import ImageDescCard from "../components/ImageDescCard";
+import FindMemberSection from "../components/Home/FindMemberSection";
 
 const {Content} = Layout;
 
@@ -19,6 +20,7 @@ export default function Home() {
                     <Poster/>
                     <TwoPartDetail/>
                     <DutyDetail/>
+                    <FindMemberSection/>
                 </Content>
                 <FooterBar></FooterBar>
             </Layout>

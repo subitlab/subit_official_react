@@ -1,4 +1,4 @@
-import styles from "../styles/header.module.css";
+import styles from "../styles/global_components/header.module.css";
 import {Image, Layout, Menu, Popover} from "antd";
 import Router from "next/router";
 import {MenuOutlined} from "@ant-design/icons";
