@@ -1,0 +1,83 @@
+.body {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 150px 10px 150px;
+    background: rgba(255, 255, 255);
+    box-shadow: 0 4px 5px 0 rgb(0 0 0 / 14%), 0 1px 10px 0 rgb(0 0 0 / 12%), 0 2px 4px -1px rgb(0 0 0 / 30%);
+}
+
+.text_title {
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 1.35;
+    align-self: stretch;
+}
+.text_content {
+    margin-bottom: 0.5em;
+    color: rgba(0, 0, 0, 0.85);
+    line-height: 1.35;
+    align-self: stretch;
+}
+.text_b {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 800;
+    margin: 10px 35px;
+}
+
+.link {
+    margin: 10px 35px;
+}
+
+.text_box {
+    display: flex;
+    flex-direction: column;
+}
+
+.pic {
+    display:flex;
+    width: 430px;
+    height: 430px;
+    border-radius: 8px;
+    background-size: cover;
+    background-position: center;
+    background-image: url("/static/Mk/syl.jpg");
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+}
+@media (max-width: 1080px) {
+    .body {
+        padding: 10px 70px 10px 70px;
+        flex-direction: column;
+    }
+    .text_title,.text_content,.text_b,.link {
+        text-align: center;
+    }
+    .text_box {
+        margin: 50px 0px;
+        animation: TextMoveAnimation ease .5s;
+        animation-iteration-count: 1;
+    }
+    .pic{
+        animation: PicMoveAnimation ease .5s;
+        animation-iteration-count: 1;
+    }
+}
+@keyframes PicMoveAnimation {
+    0% {
+        transform: translate(150px,-300px);
+    }
+    100% {
+        transform: none;
+    }
+}
+@keyframes TextMoveAnimation {
+    0% {
+        transform: translate(-300px,100px);
+    }
+    100% {
+        transform: none;
+    }
+}
