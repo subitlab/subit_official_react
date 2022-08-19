@@ -20,12 +20,18 @@ class FindMemberSection extends Component {
         super(props);
         this.card_cnt = 3;
         this.state = {
+            data: {},
             selected: [],
             opacity: 0,
         };
     }
 
-    componentDidMount() {
+    async componentDidMount() {
+        await fetch("/api/member").then(res => res.json()).then(data => {
+            this.setState({
+                data: data,
+            });
+        });
         window.addEventListener("resize", this.resize);
         this.card_cnt = card_num_calc(document.body.clientWidth);
         this.updatePeople(this.card_cnt);
@@ -48,16 +54,9 @@ class FindMemberSection extends Component {
     };
 
     updatePeople(n) {
+        if (!this.state.data.current) return;
         this.setState({
-            opacity: 0,
-        });
-        this.forceUpdate();
-        fetch("/api/member").then(res => res.json()).then(data => {
-            let current_member = data.current;
-            this.setState({
-                selected: random_choose(current_member, n),
-                // opacity: 1,
-            });
+            selected: random_choose(this.state.data.current, n),
         });
     }
 
