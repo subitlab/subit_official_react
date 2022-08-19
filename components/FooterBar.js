@@ -1,4 +1,4 @@
-import styles from "../styles/footer.module.css";
+import styles from "../styles/global_components/footer.module.css";
 import {Image, Layout} from "antd";
 import {createFromIconfontCN, GithubOutlined, MailOutlined} from "@ant-design/icons";
 

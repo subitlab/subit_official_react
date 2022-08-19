@@ -1,0 +1,47 @@
+.container {
+    width: 290px;
+    max-height: 444px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 15px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.3);
+    transition: all .25s ease-in-out;
+}
+
+.poster {
+    background-size: cover;
+    width: 100%;
+    height: 219px;
+    border-radius: 10px 10px 0 0;
+}
+
+.text_section {
+    max-height: 225px;
+    padding: 20px 30px 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+}
+
+.subtitle {
+}
+
+.desc {
+    margin-top: 15px;
+    height: 84.5px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+@media (min-width: 1600px) {
+    .container{
+        margin:10px 40px;
+    }
+}
