@@ -16,7 +16,7 @@ const duty_card = [
     },
 ];
 
-export default function DutyDetail() {
+export default function xDutyDetail() {
     return (
         <div className={styles.body}>
             <div className={styles.title}>我们的职责</div>
