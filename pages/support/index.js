@@ -6,17 +6,6 @@ import PageTitle from "../_title";
 import style from "../../styles/support.module.css";
 
 const {Content} = Layout;
-const ContentDetail = [
-    {
-        title:"线下技术支持",
-        context:"可用时间\n周一至周五，午休与活动课\n需提前预约\n请提前发送邮件给SubIT"
-    },
-    {
-        title:"线上技术支持",
-        context:"直接发送邮件给SubIT邮箱\n请清晰描述遇到的问题\n后续交流将通过邮件\n如有不便请备注联系方式",
-        link:"发送邮件给SubIT>>"
-    }
-];
 
 export default function Support() {
     return (
@@ -57,7 +46,7 @@ function Online(){
             <p className={style.context}>请清晰描述遇到的问题</p>
             <p className={style.context}>后续交流将通过邮件</p>
             <p className={style.context}>如有不便请备注联系方式</p>
-            <a className={style.link}>发送邮件给SubIT>></a>
+            <a className={style.link} href="mailto:subit@i.pkuschool.edu.cn">发送邮件给SubIT>></a>
         </div>
     );
 }
