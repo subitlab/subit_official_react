@@ -1,6 +1,6 @@
 import styles from "../styles/global_components/footer.module.css";
 import {Image, Layout} from "antd";
-import {createFromIconfontCN, GithubOutlined, MailOutlined} from "@ant-design/icons";
+import {createFromIconfontCN, GithubOutlined, MailOutlined, YuqueOutlined} from "@ant-design/icons";
 
 const {Footer} = Layout;
 
@@ -35,9 +35,9 @@ const action = [
         href: "https://www.yammer.com/i.pkuschool.edu.cn/#/users/1691511088",
     },
     {
-        title: "Telegram",
-        icon: <IconFont type="icon-telegram-plane"/>,
-        href: "https://t.me/+QPaHG_oUu104MjE1",
+        title: "Yuque",
+        icon: <YuqueOutlined/>,
+        href: "https://yuque.com/subit",
     },
 ];
 
