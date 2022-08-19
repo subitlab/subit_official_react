@@ -26,15 +26,15 @@ class FindMemberSection extends Component {
         };
     }
 
-    async componentDidMount() {
-        await fetch("/api/member").then(res => res.json()).then(data => {
+    componentDidMount() {
+        fetch("/api/member").then(res => res.json()).then(data => {
             this.setState({
                 data: data,
             });
+            window.addEventListener("resize", this.resize);
+            this.card_cnt = card_num_calc(document.body.clientWidth);
+            this.updatePeople(this.card_cnt, data);
         });
-        window.addEventListener("resize", this.resize);
-        this.card_cnt = card_num_calc(document.body.clientWidth);
-        this.updatePeople(this.card_cnt);
     }
 
     resize = () => {
@@ -53,7 +53,13 @@ class FindMemberSection extends Component {
         }
     };
 
-    updatePeople(n) {
+    updatePeople(n, data) {
+        if (data !== undefined) {
+            this.setState({
+                selected: random_choose(data.current, n),
+            });
+            return;
+        }
         if (!this.state.data.current) return;
         this.setState({
             selected: random_choose(this.state.data.current, n),
