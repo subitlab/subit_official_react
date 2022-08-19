@@ -20,21 +20,16 @@ class FindMemberSection extends Component {
         super(props);
         this.card_cnt = 3;
         this.state = {
-            data: {},
+            data: MemberList,
             selected: [],
             opacity: 0,
         };
     }
 
     componentDidMount() {
-        fetch("/api/member").then(res => res.json()).then(data => {
-            this.setState({
-                data: data,
-            });
-            window.addEventListener("resize", this.resize);
-            this.card_cnt = card_num_calc(document.body.clientWidth);
-            this.updatePeople(this.card_cnt, data);
-        });
+        window.addEventListener("resize", this.resize);
+        this.card_cnt = card_num_calc(document.body.clientWidth);
+        this.updatePeople(this.card_cnt, MemberList);
     }
 
     resize = () => {
