@@ -4,6 +4,7 @@ import FooterBar from "../../components/FooterBar";
 import std from "../../styles/Home/Home.module.css";
 import JSC_style from "../../styles/Join/JoinUsCard.module.css";
 import PageTitle from "../_title";
+import MkShow from "../../components/MkShow";
 
 const {Content} = Layout;
 
@@ -15,7 +16,7 @@ export default function Join() {
                 <HeaderBar/>
                 <Content className={[std.content, std.std_background]}>
                     <JoinUsCard/>
-                    <MK_Show/>
+                    <MkShow/>
                 </Content>
                 <FooterBar/>
             </Layout>
@@ -36,13 +37,6 @@ function JoinUsCard() {
                 <a className={JSC_style.link}>常驻招新问卷（点我去看看&gt;&gt;）</a>
             </div>
             <div className={JSC_style.pic}></div>
-        </div>
-    );
-}
-function MK_Show() {
-    return(
-        <div>
-
         </div>
     );
 }
