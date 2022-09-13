@@ -55,6 +55,10 @@
     .text_title,.text_content,.text_b,.link {
         text-align: center;
     }
+    .text_title {
+        animation: TitleMoveAnimation ease .5s;
+        animation-iteration-count: 1;
+    }
     .text_box {
         margin: 50px 0px;
         animation: TextMoveAnimation ease .5s;
@@ -65,19 +69,42 @@
         animation-iteration-count: 1;
     }
 }
-@keyframes PicMoveAnimation {
-    0% {
-        transform: translate(150px,-300px);
+@media (min-width: 1080px) {
+    .text_box {
+        animation: TextMoveOutAnimation ease .5s;
+        animation-iteration-count: 1;
     }
-    100% {
-        transform: none;
+    .pic{
+        animation: PicMoveOutAnimation ease .5s;
+        animation-iteration-count: 1;
+    }
+    .text_title {
+        animation: TitleMoveOutAnimation ease .5s;
+        animation-iteration-count: 1;
     }
 }
+@keyframes PicMoveAnimation {
+    0% { transform: translate(150px,-20px); }
+    100% { transform: none; }
+}
+@keyframes TitleMoveAnimation {
+    0% { transform: translateX(-50px); }
+    100%  { transform: none; }
+}
 @keyframes TextMoveAnimation {
-    0% {
-        transform: translate(-300px,100px);
-    }
-    100% {
-        transform: none;
-    }
+    0% { transform: translate(-150px,20px) }
+    100% { transform: none; }
+}
+
+@keyframes PicMoveOutAnimation{
+    0% { transform: translateX(-50px); }
+    100% { transform: none; }
+}
+@keyframes TitleMoveOutAnimation {
+    0% { transform: translateX(50px); }
+    100%  { transform: none; }
+}
+@keyframes TextMoveOutAnimation {
+    0% { transform: translateX(50px); }
+    100% { transform: none; }
 }

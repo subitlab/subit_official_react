@@ -5,6 +5,7 @@ import std from "../../styles/Home/Home.module.css";
 import JSC_style from "../../styles/Join/JoinUsCard.module.css";
 import PageTitle from "../_title";
 import MkShow from "../../components/MkShow";
+import MemberList from "../../components/MemberList";
 
 const {Content} = Layout;
 
@@ -17,6 +18,7 @@ export default function Join() {
                 <Content className={[std.content, std.std_background]}>
                     <JoinUsCard/>
                     <MkShow/>
+                    <MemberList/>
                 </Content>
                 <FooterBar/>
             </Layout>
@@ -37,13 +39,6 @@ function JoinUsCard() {
                 <a className={JSC_style.link}>常驻招新问卷（点我去看看&gt;&gt;）</a>
             </div>
             <div className={JSC_style.pic}></div>
-        </div>
-    );
-}
-function MemberList() {
-    return(
-        <div>
-
         </div>
     );
 }
