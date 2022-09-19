@@ -3,6 +3,7 @@ import {Layout} from "antd";
 import FooterBar from "../../components/FooterBar";
 import std from "../../styles/Home/Home.module.css";
 import PageTitle from "../_title";
+import Achievements from "../../components/Achievements";
 
 const {Content} = Layout;
 
@@ -13,6 +14,7 @@ export default function Achievement() {
             <Layout>
                 <HeaderBar/>
                 <Content className={[std.content, std.std_background]}>
+                    <Achievements/>
                 </Content>
                 <FooterBar/>
             </Layout>

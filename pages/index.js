@@ -7,6 +7,7 @@ import TwoPartDetail from "../components/Home/TwoPartDetail";
 import DutyDetail from "../components/Home/DutyDetail";
 import ImageDescCard from "../components/ImageDescCard";
 import FindMemberSection from "../components/Home/FindMemberSection";
+import NotOnlyTech from "../components/Home/NotOnlyTech";
 
 const {Content} = Layout;
 
@@ -20,6 +21,7 @@ export default function Home() {
                     <Poster/>
                     <TwoPartDetail/>
                     <DutyDetail/>
+                    {/*<NotOnlyTech/>*/}
                     <FindMemberSection/>
                 </Content>
                 <FooterBar></FooterBar>
