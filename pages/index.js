@@ -5,9 +5,9 @@ import FooterBar from "../components/FooterBar";
 import PageTitle from "./_title";
 import TwoPartDetail from "../components/Home/TwoPartDetail";
 import DutyDetail from "../components/Home/DutyDetail";
+import NotOnlyTech from "../components/Home/NotOnlyTech";
 import ImageDescCard from "../components/ImageDescCard";
 import FindMemberSection from "../components/Home/FindMemberSection";
-import NotOnlyTech from "../components/Home/NotOnlyTech";
 
 const {Content} = Layout;
 
@@ -21,7 +21,7 @@ export default function Home() {
                     <Poster/>
                     <TwoPartDetail/>
                     <DutyDetail/>
-                    {/*<NotOnlyTech/>*/}
+                    <NotOnlyTech/>
                     <FindMemberSection/>
                 </Content>
                 <FooterBar></FooterBar>
