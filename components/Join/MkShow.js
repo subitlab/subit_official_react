@@ -1,5 +1,5 @@
 import {Component} from "react";
-import style from "../styles/Join/MkShow.module.css";
+import style from "../../styles/Join/MkShow.module.css";
 import {RightOutlined,LeftOutlined} from "@ant-design/icons";
 
 const MkData = [

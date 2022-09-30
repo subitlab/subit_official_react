@@ -1,5 +1,5 @@
-import Data from "../data/memberlist.json";
-import style from "../styles/Join/MemberList.module.css";
+import Data from "../../data/memberlist.json";
+import style from "../../styles/Join/MemberList.module.css";
 import {Component} from "react";
 
 // function card_cnt_calc(width){//未适配

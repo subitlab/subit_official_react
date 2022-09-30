@@ -4,8 +4,8 @@ import FooterBar from "../../components/FooterBar";
 import std from "../../styles/Home/Home.module.css";
 import JSC_style from "../../styles/Join/JoinUsCard.module.css";
 import PageTitle from "../_title";
-import MkShow from "../../components/MkShow";
-import MemberList from "../../components/MemberList";
+import MkShow from "../../components/Join/MkShow";
+import MemberList from "../../components/Join/MemberList";
 
 const {Content} = Layout;
 
