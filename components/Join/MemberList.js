@@ -22,13 +22,13 @@ class MemberList extends Component {
             <div className={style.body}>
                 <h1 className={style.title}>历届社员列表</h1>
                 {
-                    this.state.data.current.map(session => (
-                        <Session data={session}/>))
+                    this.state.data.current.map((session,i) => (
+                        <Session key={i} data={session}/>))
                 }
                 <h1 className={style.sessionTitle}>以下为养老院·荣誉社员</h1>
                 {
-                    this.state.data.honor.map(session => (
-                        <Session data={session}/>))
+                    this.state.data.honor.map((session,i) => (
+                        <Session key={i} data={session}/>))
                 }
             </div>
         );
@@ -40,28 +40,7 @@ class Session extends Component {
     constructor(props) {
         super(props);
         this.state = props;
-        // this.line_lenth = 4;
     };
-
-    // componentDidMount() {
-    //     window.addEventListener("resize", this.resize);
-    //     this.line_lenth = card_cnt_calc(document.body.clientWidth);
-    // }
-    // ReSizeMemberCard(member){
-    //     let lenth = member.length;
-    //     let line = Math.ceil((lenth-1)/this.line_lenth);
-    //     for(let i=0;i<line-1;i++){
-    //         member.slice(i*this.line_lenth,i*this.line_lenth+this.line_lenth-1)
-    //               .map((item) => (<MemberCard data={item}/>) );
-    //     }
-    // }
-    // resize = () => {
-    //     let width = document.body.clientWidth;
-    //     let new_cnt = card_cnt_calc(width);
-    //     if(new_cnt != this.line_lenth) {
-    //         this.line_lenth = new_cnt;
-    //     }
-    // };
 
     render(){
         return(
@@ -69,7 +48,7 @@ class Session extends Component {
                 <h1 className={style.sessionTitle}>{this.state.data.session}</h1>
                 <div className={style.MemberCard}>
                     {
-                        this.state.data.member.map(i=>(<MemberCard data={i}/>))
+                        this.state.data.member.map(i=>(<MemberCard key={i} data={i}/>))
                         //  this.ReSizeMemberCard(this.state.data.member)
                     }
                 </div>

@@ -97,8 +97,8 @@ class MkShow extends Component {
             <div style={{ display:"flex", flexDirection:"row" }}>
                 <div className={style.switch_left} /*onClick={this.change_dir("left")}*/><LeftOutlined className={style.switch_font} /></div>
                 {
-                    this.state.selected.map((index) => (
-                        <MkCard pic={MkData[index].pic} cnt={MkData[index].cnt} dist={MkData[index].dist} name={MkData[index].name}/>
+                    this.state.selected.map((index,i) => (
+                        <MkCard key={i} pic={MkData[index].pic} cnt={MkData[index].cnt} dist={MkData[index].dist} name={MkData[index].name}/>
                     ))
                 }
                 <div className={style.switch_right} /*onClick={this.change_dir("right")}*/><RightOutlined className={style.switch_font} /></div>

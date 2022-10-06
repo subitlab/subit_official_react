@@ -23,8 +23,8 @@ class Achievements extends Component {
                 </div>
                 <a style={{ textAlign:"center",margin:20 }}>查看全部成就&gt;&gt;</a>
                 {
-                    this.state.map(item=>(
-                        <div className={style.achievecard}>
+                    this.state.map((item,i)=>(
+                        <div key={i} className={style.achievecard}>
                             <div style={{ alignSelf:"center" }}><img className={style.pic} src={item.picsrc}></img></div>
                             <div className={style.detailbox}>
                                 <div className={style.state} style={{ color: `${item.statecolor}` }}>{ item.state }</div>

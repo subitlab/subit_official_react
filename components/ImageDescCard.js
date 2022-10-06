@@ -1,7 +1,7 @@
 import styles from "../styles/global_components/ImageDescCard.module.css";
 
 export default function ImageDescCard(props) {
-    let width = props.width;
+
     props = props.detail;
     // props = {
     //     title: "夏博阳",
