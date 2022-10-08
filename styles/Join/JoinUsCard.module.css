@@ -15,26 +15,32 @@
     font-size: 36px;
     line-height: 1.35;
     align-self: stretch;
+    transition: all .25s ease-in-out;
 }
 .text_content {
+    width:345px;
     margin-bottom: 0.5em;
     color: rgba(0, 0, 0, 0.85);
     line-height: 1.35;
     align-self: stretch;
+    transition: all .25s ease-in-out;
 }
 .text_b {
     color: rgba(0, 0, 0, 0.85);
     font-weight: 800;
     margin: 10px 35px;
+    transition: all .25s ease-in-out;
 }
 
 .link {
     margin: 10px 35px;
+    transition: all .25s ease-in-out;
 }
 
 .text_box {
     display: flex;
     flex-direction: column;
+    transition: all .25s ease-in-out;
 }
 
 .pic {
@@ -46,27 +52,21 @@
     background-position: center;
     background-image: url("/static/Mk/syl.jpg");
     box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.3);
+    transition: all .25s ease-in-out;
 }
 @media (max-width: 1080px) {
     .body {
-        padding: 10px 70px 10px 70px;
+        padding: 10px 70px 50px 70px;
         flex-direction: column;
     }
     .text_title,.text_content,.text_b,.link {
         text-align: center;
     }
-    .text_title {
-        animation: TitleMoveAnimation ease .5s;
-        animation-iteration-count: 1;
-    }
     .text_box {
         margin: 50px 0px;
-        animation: TextMoveAnimation ease .5s;
-        animation-iteration-count: 1;
     }
     .pic{
-        animation: PicMoveAnimation ease .5s;
-        animation-iteration-count: 1;
+        width:65%;
     }
 }
 @media (min-width: 1080px) {
@@ -82,18 +82,6 @@
         animation: TitleMoveOutAnimation ease .5s;
         animation-iteration-count: 1;
     }
-}
-@keyframes PicMoveAnimation {
-    0% { transform: translate(150px,-20px); }
-    100% { transform: none; }
-}
-@keyframes TitleMoveAnimation {
-    0% { transform: translateX(-50px); }
-    100%  { transform: none; }
-}
-@keyframes TextMoveAnimation {
-    0% { transform: translate(-150px,20px) }
-    100% { transform: none; }
 }
 
 @keyframes PicMoveOutAnimation{
