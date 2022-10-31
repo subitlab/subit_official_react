@@ -3,7 +3,7 @@
     "state": "已存档 Archived",
     "statecolor": "#EA0000",
     "name": "2020毕业典礼·邀请函生成器",
-    "detail": "某君昆仲，今隐其名，皆余昔日在中学校时良友;分隔多年，消息渐阙。日前偶闻其一大病;适归故乡，迂道往访，则仅晤一人，言病者其弟也。劳君远道来视，然已早愈，赴某地候补矣。因大笑，出示日记二册，谓可见当日病状，不妨献诸旧友。",
+    "detail": "",
     "picsrc": "/static/AchievementPic/Invite.jpeg",
     "goto": ""
   },
@@ -11,7 +11,7 @@
     "state": "已存档 Archived",
     "statecolor": "#EA0000",
     "name": "北大附中 Adobe 下载中心",
-    "detail": "我不见他，已是三十多年;今天见了，精神分外爽快。才知道以前的三十多年，全是发昏;然而须十分小心。不然，那赵家的狗，何以看我两眼呢?",
+    "detail": "",
     "picsrc": "/static/AchievementPic/DownloadStation.jpeg",
     "goto": ""
   },
@@ -19,7 +19,7 @@
     "state": "运行中 Running",
     "statecolor": "#3BDE3E",
     "name": "博雅学院·口述史项目官网",
-    "detail": "我可不怕，仍旧走我的路。前面一伙小孩子，也在那里议论我;眼色也同赵贵翁一样，脸色也都铁青。我想我同小孩子有什么仇，他也这样。忍不住大声说，“你告诉我!”他们可就跑了。",
+    "detail": "",
     "picsrc": "/static/AchievementPic/bdfzHistory.jpeg",
     "goto": ""
   },
@@ -27,7 +27,7 @@
     "state": "活动类成就",
     "statecolor": "#3B7CDE",
     "name": "SubIT · 技术课(编程应用俱乐部)",
-    "detail": "凡事总须研究，才会明白。古来时常吃人，我也还记得，可是不甚清楚。我翻开历史一查，这历史没有年代，歪歪斜斜的每叶上都写着“仁义道德”几个字。我横竖睡不着，仔细看了半夜，才从字缝里看出字来，满本都写着两个字是“吃人”!",
+    "detail": "",
     "picsrc": "/static/AchievementPic/TechClass.jpeg"
   }
 ]

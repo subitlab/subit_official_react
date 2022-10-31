@@ -25,7 +25,7 @@ class MemberList extends Component {
                     this.state.data.current.map((session,i) => (
                         <Session key={i} data={session}/>))
                 }
-                <h1 className={style.sessionTitle}>以下为养老院·荣誉社员</h1>
+                <h1 className={style.sessionTitle} style={{ marginTop:10 }}>以下为养老院·荣誉社员</h1>
                 {
                     this.state.data.honor.map((session,i) => (
                         <Session key={i} data={session}/>))
