@@ -1,13 +1,7 @@
 import Data from "../../data/memberlist.json";
 import style from "../../styles/Join/MemberList.module.css";
 import {Component} from "react";
-
-// function card_cnt_calc(width){//未适配
-//     if (width>1225){ return 4; }
-//     else if (width<=1225 && width>1000){ return 3; }
-//     else if (width<=1000 && width>680){ return 2; }
-//     else if (width<=680){ return 1; }
-// }
+import { Col,Row } from "antd";
 
 class MemberList extends Component {
     constructor(props) {
@@ -47,21 +41,46 @@ class Session extends Component {
             <div className={style.sessionCard}>
                 <h1 className={style.sessionTitle}>{this.state.data.session}</h1>
                 <div className={style.MemberCard}>
-                    {
-                        this.state.data.member.map(i=>(<MemberCard key={i} data={i}/>))
-                        //  this.ReSizeMemberCard(this.state.data.member)
-                    }
+                    <Row
+                        wrap={true}
+                        justify="start"
+                        // gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
+                    >
+                        {
+                            this.state.data.member.map(i=>(<MemberCard key={i} data={i}/>))
+                            //  this.ReSizeMemberCard(this.state.data.member)
+                        }
+                    </Row>
                 </div>
             </div>
         );
     }
 }
 
-function MemberCard(props){
-    return(
-        <div className={style.PersonCard}>
-            <div className={style.name}>{props.data.name}</div>
-            <div className={style.house}>{props.data.house}</div>
-        </div>
-    );
+class MemberCard extends Component{
+    constructor(props) {
+        super(props);
+        this.cnt = 0;
+    }
+    resize(){
+        let width = document.body.clientWidth;
+        if (width>1225){ this.cnt = 4; }
+        else if (width<=1225 && width>1000){ this.cnt = 3; }
+        else if (width<=1000 && width>680){ this.cnt = 2; }
+        else if (width<=680){ this.cnt = 1; }
+    }
+    componentDidMount()
+    {
+        window.addEventListener("resize", this.resize);
+    }
+    render(){
+        return(
+            <Col className="gutter-row" span={24/this.cnt}>
+                <div className={style.PersonCard}>
+                    <div className={style.name}>{this.props.data.name}</div>
+                    <div className={style.house}>{this.props.data.house}</div>
+                </div>
+            </Col>
+        );
+    };
 }
