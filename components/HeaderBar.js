@@ -1,17 +1,21 @@
 import styles from "../styles/global_components/header.module.css";
-import {Image, Layout, Menu, Popover} from "antd";
+import { Image, Layout, Menu, Popover, Alert, Button } from "antd";
 import Router from "next/router";
-import {MenuOutlined} from "@ant-design/icons";
+import { MenuOutlined } from "@ant-design/icons";
 import React from "react";
 
-const {Header} = Layout;
+const onClose = (e) => {
+    console.log(e, "I was closed");
+};
 
+const { Header } = Layout;
 
 const actions_title = [
-    {title: "关于我们", path: "/about"},
-    {title: "加入我们", path: "/join"},
-    {title: "项目成就", path: "/achievement"},
-    {title: "提供支持", path: "/support"}];
+    { title: "关于我们", path: "/about" },
+    { title: "加入我们", path: "/join" },
+    { title: "项目成就", path: "/achievement" },
+    { title: "提供支持", path: "/support" }
+];
 
 
 export default function HeaderBar(props) {
@@ -24,6 +28,22 @@ export default function HeaderBar(props) {
                 <Actions select={props.select ? props.select : null}/>
                 <ActionsMenuBtn select={props.select ? props.select : null}/>
             </div>
+            <Alert
+                message="SubIT-2023秋季招新正在进行中!请点击右侧按钮或转到“加入我们”页面进一步了解-->"
+                type="warning"
+                closable
+                showIcon
+                action={
+                    <Button
+                        type="link"
+                        size="large"
+                        href="/join"
+                    >
+                        去详细了解➡️
+                    </Button>
+                }
+                onClose={onClose}
+            />
         </Header>
     );
 }
