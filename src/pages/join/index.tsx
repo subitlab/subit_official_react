@@ -31,8 +31,7 @@ function JoinUsCard() {
             <div className={JSC_style.text_box}>
                 <h1 className={JSC_style.text_title}>加入我们！</h1>
                 <p className={JSC_style.text_content}>我们欢迎每一位对我们感兴趣的北大附中学生的加入！</p>
-                <p className={JSC_style.text_content}>如果你想加入我们，可以看看下面的几种方式。</p>
-                <p className={JSC_style.text_content}>另外，快去捕捉我们的社员吧</p>
+                <p className={JSC_style.text_content}>如果你想加入我们，SubIT每年会进行两次招新：</p>
                 <p className={JSC_style.text_b}>春季招新（每学年下半学期的3-4月）</p>
                 <p className={JSC_style.text_b}>秋季招新（每学年上半学期8-10月）</p>
                 <p className={JSC_style.text_content}>2023年秋季招新进行中，点击下方连接填写问卷立即参与！</p>
@@ -43,6 +42,7 @@ function JoinUsCard() {
                 >
                     常驻招新问卷（点我去看看&gt;&gt;）
                 </a>
+                <p className={JSC_style.text_content}>另外，快去捕捉我们的社员吧（</p>
             </div>
             <div className={JSC_style.pic}></div>
         </div>
