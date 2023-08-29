@@ -35,8 +35,10 @@ export default function ImageDescCard(props: any) {
 function Desc(props: { desc: string | null; }) {
     if (props.desc != null) {
         return (
-            <span className={styles.desc} dangerouslySetInnerHTML={{__html: props.desc.replace("\n", "<br/>")}}>
-            </span>
+            <span
+                className={styles.desc}
+                dangerouslySetInnerHTML={{__html: props.desc.replace("\n", "<br/>")}}
+            ></span>
         );
     }
     return null;

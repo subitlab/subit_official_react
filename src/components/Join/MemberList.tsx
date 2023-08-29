@@ -1,6 +1,6 @@
 import Data from "../../data/memberlist.json";
 import style from "../../styles/Join/MemberList.module.css";
-import {Component} from "react";
+import { Component } from "react";
 import { Col,Row } from "antd";
 
 // TODO: Change this to a hook

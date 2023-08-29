@@ -1,9 +1,9 @@
 import styles from "../../styles/Home/components/FindMemberSection.module.css";
 import ImageDescCard from "../ImageDescCard";
 import MemberList from "../../data/member.json";
-import {random_choose} from "../../functions/DataProc";
-import react, {Component} from "react";
-import {ReloadOutlined} from "@ant-design/icons";
+import { random_choose } from "../../functions/DataProc";
+import react, { Component } from "react";
+import { ReloadOutlined } from "@ant-design/icons";
 
 function card_num_calc(width: number) {
     if (width >= 830) {

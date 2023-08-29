@@ -1,5 +1,5 @@
 import styles from "../../styles/Home/components/TwoPartDetail.module.css";
-import {Typography} from "antd";
+import { Typography } from "antd";
 
 const TwoPart = [
     {

@@ -1,8 +1,11 @@
 import styles from "../styles/global_components/footer.module.css";
-import {Image, Layout} from "antd";
-import {createFromIconfontCN, GithubOutlined, MailOutlined, YuqueOutlined} from "@ant-design/icons";
+import { Image, Layout } from "antd";
+import { createFromIconfontCN,
+    GithubOutlined,
+    MailOutlined,
+    YuqueOutlined } from "@ant-design/icons";
 
-const {Footer} = Layout;
+const { Footer } = Layout;
 
 const IconFont = createFromIconfontCN({
     scriptUrl: [
@@ -46,7 +49,9 @@ export default function FooterBar() {
         <Footer className={styles.outline}>
             <div className={styles.footer}>
                 <div className={styles.link_bar}>
-                    <Image style={{marginTop: "-3px", minWidth: "120px"}} width={120} preview={false}
+                    <Image style={{marginTop: "-3px", minWidth: "120px"}}
+                           width={120}
+                           preview={false}
                            alt="logo_revert_transparent"
                            src="/static/SubIT-Rvt-Transparent.svg"/>
                     <ActionBar/>
@@ -64,7 +69,9 @@ function TextLink() {
             {
                 link.map((item, i) => (
                     <span key={i} style={{color: "white", cursor: "default"}}>
-                        <a href={item.path} className={styles.text_link} style={{
+                        <a href={item.path}
+                           className={styles.text_link}
+                           style={{
                             fontSize: "16px",
                             cursor: "pointer",
                         }}> {item.title} </a>
@@ -91,7 +98,13 @@ function ActionBar() {
         <div className={styles.action_bar}>
             {
                 action.map((item, i) => (
-                    <a target="_blank" rel="noreferrer" className={styles.link} key={item.title} href={item.href}>
+                    <a
+                        target="_blank"
+                        rel="noreferrer"
+                        className={styles.link}
+                        key={item.title}
+                        href={item.href}
+                    >
                         {item.icon}
                         <span className={styles.link_text}>{item.title}</span>
                     </a>

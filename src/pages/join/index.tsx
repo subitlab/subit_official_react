@@ -1,5 +1,5 @@
 import HeaderBar from "../../components/HeaderBar";
-import {Layout} from "antd";
+import { Layout } from "antd";
 import FooterBar from "../../components/FooterBar";
 import std from "../../styles/Home/Home.module.css";
 import JSC_style from "../../styles/Join/JoinUsCard.module.css";
@@ -7,7 +7,7 @@ import PageTitle from "../_title";
 import MkShow from "../../components/Join/MkShow";
 import MemberList from "../../components/Join/MemberList";
 
-const {Content} = Layout;
+const { Content } = Layout;
 
 export default function Join() {
     return (

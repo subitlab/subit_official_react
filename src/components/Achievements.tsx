@@ -1,4 +1,3 @@
-import {Component} from 'react';
 import AchievementsData from "../data/achievements.json";
 import style from "../styles/Achievement/Achievements.module.css";
 import { useState, useEffect } from "react";
@@ -9,7 +8,7 @@ function StatusCheck(status){
 }
 
 export default function Achievements() {
-    // temporarily use this ugly way to display the achievements data.
+    // temporarily use this ugly way to display the achievements' data.
     const [row, setRow] = useState([]);
     useEffect(()=> {
         // @ts-ignore

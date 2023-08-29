@@ -22,9 +22,16 @@ export default function HeaderBar(props: any) {
     return (
         <Header className={styles.header}>
             <div className={styles.container}>
-                <Image style={{cursor: "pointer"}} onClick={() => {
-                    Router.push("/");
-                }} height={64} width={128} preview={false} alt="logo" src="/static/SubIT-Normal.svg" className={styles.logo}></Image>
+                <Image
+                    style={{cursor: "pointer"}}
+                    onClick={() => { Router.push("/"); }}
+                    height={64}
+                    width={128}
+                    preview={false}
+                    alt="logo"
+                    src="/static/SubIT-Normal.svg"
+                    className={styles.logo}
+                ></Image>
                 <Actions select={props.select ? props.select : null}/>
                 <ActionsMenuBtn select={props.select ? props.select : null}/>
             </div>
@@ -42,16 +49,19 @@ export default function HeaderBar(props: any) {
                         去详细了解➡️
                     </Button>
                 }
-                onClose={onClose}
+                onClose={ onClose }
             />
         </Header>
     );
 }
 
 //弹出菜单
-function DropdownAction(props: { select: { toString: () => string[] | undefined; }; }) {
+function DropdownAction(props: any) {
     return (
-        <Menu style={{width: 200}} selectedKeys={props.select ? props.select.toString() : undefined}>
+        <Menu
+            style={{width: 200}}
+            selectedKeys={props.select ? props.select.toString() : undefined}
+        >
             {
                 actions_title.map((item, i) => (
                     <Menu.Item key={i.toString()} onClick={() => {
@@ -68,15 +78,17 @@ function DropdownAction(props: { select: { toString: () => string[] | undefined;
 //小屏幕下的弹出按钮
 function ActionsMenuBtn(props: any) {
     return (
-        <Popover className={styles.menu_btn} arrowPointAtCenter placement="bottomRight"
-                 content={DropdownAction(props)}>
+        <Popover className={styles.menu_btn}
+                 arrowPointAtCenter placement="bottomRight"
+                 content={DropdownAction(props)}
+        >
             <MenuOutlined/>
         </Popover>
     );
 }
 
 //一般下动作条
-function Actions(props: { select: number; }) {
+function Actions(props: any) {
     return (
         <div className={styles.actions}>
             {

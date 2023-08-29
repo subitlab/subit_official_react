@@ -1,4 +1,6 @@
-import {CodeOutlined, PlusOutlined, SolutionOutlined} from "@ant-design/icons";
+import { CodeOutlined,
+    PlusOutlined,
+    SolutionOutlined } from "@ant-design/icons";
 import style from "../../styles/Home/components/NotOnlyTech.module.css";
 
 export default function NotOnlyTech() {

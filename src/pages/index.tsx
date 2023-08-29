@@ -1,6 +1,6 @@
 import styles from "../styles/Home/Home.module.css";
 import HeaderBar from "../components/HeaderBar";
-import {Layout} from "antd";
+import { Layout } from "antd";
 import FooterBar from "../components/FooterBar";
 import PageTitle from "./_title";
 import TwoPartDetail from "../components/Home/TwoPartDetail";
@@ -9,7 +9,7 @@ import NotOnlyTech from "../components/Home/NotOnlyTech";
 import ImageDescCard from "../components/ImageDescCard";
 import FindMemberSection from "../components/Home/FindMemberSection";
 
-const {Content} = Layout;
+const { Content } = Layout;
 
 export default function Home() {
     return (
