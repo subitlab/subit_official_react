@@ -36,7 +36,13 @@ function JoinUsCard() {
                 <p className={JSC_style.text_b}>春季招新（每学年下半学期的3-4月）</p>
                 <p className={JSC_style.text_b}>秋季招新（每学年上半学期8-10月）</p>
                 <p className={JSC_style.text_content}>或者，你也可以填写这个问卷，让我们了解你</p>
-                <a className={JSC_style.link}>常驻招新问卷（点我去看看&gt;&gt;）</a>
+                <a
+                    className={JSC_style.link}
+                    href="/"
+                    target="_blank"
+                >
+                    常驻招新问卷（点我去看看&gt;&gt;）
+                </a>
             </div>
             <div className={JSC_style.pic}></div>
         </div>
