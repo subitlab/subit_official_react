@@ -1,14 +1,14 @@
 import Data from "../../data/memberlist.json";
 import style from "../../styles/Join/MemberList.module.css";
-import { Component } from "react";
-import { Col,Row } from "antd";
+import { Component, Key} from "react";
+import {Col, Row} from "antd";
 
 // TODO: Change this to a hook
 class MemberList extends Component {
     constructor(props) {
         super(props);
         this.state = {
-            data:Data
+            data: Data
         };
     }
 
@@ -17,7 +17,7 @@ class MemberList extends Component {
             <div className={style.body}>
                 <h1 className={style.title}>历届社员列表</h1>
                 {
-                    this.state.data.current.map((session,i) => (
+                    this.state.data.current.map((session, i) => (
                         <Session key={i} data={session}/>))
                 }
                 <h1 className={style.sessionTitle} style={{ marginTop:10 }}>以下为养老院·荣誉社员</h1>
@@ -48,7 +48,7 @@ class Session extends Component {
                         // gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
                     >
                         {
-                            this.state.data.member.map(i=>(<MemberCard key={i} data={i}/>))
+                            this.state.data.member.map((i)=>(<MemberCard key={i} data={i}/>))
                             //  this.ReSizeMemberCard(this.state.data.member)
                         }
                     </Row>
@@ -59,6 +59,7 @@ class Session extends Component {
 }
 
 class MemberCard extends Component{
+
     constructor(props) {
         super(props);
         this.cnt = 0;

@@ -29,13 +29,13 @@ const MkData = [
     },
 ];
 
-function card_cnt_calc(width: number){
+function card_cnt_calc(width){
     if (width>1225){ return 4; }
     else if (width<=1225 && width>1000){ return 3; }
     else if (width<=1000 && width>680){ return 2; }
     else if (width<=680){ return 1; }
 }
-function get_arr(st: number, ed: number){
+function get_arr(st, ed){
     let t = [];
     let now = st;
     for(let i=0;i<ed-st;i++){
@@ -47,7 +47,6 @@ function get_arr(st: number, ed: number){
 
 // TODO: Change this to a hook
 class MkShow extends Component {
-
     constructor(props) {
         super(props);
         this.card_cnt = 4;
@@ -110,7 +109,7 @@ class MkShow extends Component {
 }
 export default MkShow;
 
-function MkCard(props: any) {
+function MkCard(props) {
     return(
         <div className={style.card}>
             <div style={{

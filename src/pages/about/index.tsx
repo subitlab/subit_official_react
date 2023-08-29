@@ -24,6 +24,7 @@ export default function About() {
         </div>
     );
 }
+
 function AboutUs() {
     return(
         <div className={style.about}>

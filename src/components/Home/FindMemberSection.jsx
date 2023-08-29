@@ -5,7 +5,7 @@ import { random_choose } from "../../functions/DataProc";
 import react, { Component } from "react";
 import { ReloadOutlined } from "@ant-design/icons";
 
-function card_num_calc(width: number) {
+function card_num_calc(width) {
     if (width >= 830) {
         return 3;
     } else if (width >= 570) {
@@ -71,6 +71,7 @@ class FindMemberSection extends Component {
                         认识我们的团队
                     </div>
                     <div onClick={() => {
+                        // @ts-ignore
                         this.updatePeople(card_num_calc(document.body.clientWidth));
                     }}
                          className={styles.switch}>
