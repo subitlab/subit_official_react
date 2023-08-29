@@ -36,6 +36,9 @@ yarn-error.log*
 next-env.d.ts
 built
 
+# ???
+nohup.out
+
 # build
 out
 dist
