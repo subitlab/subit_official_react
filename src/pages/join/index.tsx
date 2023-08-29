@@ -38,7 +38,7 @@ function JoinUsCard() {
                 <p className={JSC_style.text_content}>或者，你也可以填写这个问卷，让我们了解你</p>
                 <a
                     className={JSC_style.link}
-                    href="/"
+                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMDIyVlozWVBSTUhVRVZSMjlVSVMyQUtTUi4u"
                     target="_blank"
                 >
                     常驻招新问卷（点我去看看&gt;&gt;）
