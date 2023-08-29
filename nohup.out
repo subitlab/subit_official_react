@@ -1,0 +1,400 @@
+yarn run v1.22.19
+$ next start --port=3001
+ready - started server on 0.0.0.0:3001, url: http://localhost:3001
+info  - SWC minify release candidate enabled. https://nextjs.link/swcmin
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /about/../tree /tree
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /about/../tree /tree
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /+CSCOU+/../+CSCOE+/files/file_list.json /+CSCOE+/files/file_list.json
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /+CSCOU+/../+CSCOE+/files/file_list.json /+CSCOE+/files/file_list.json
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+    at async NextNodeServer.handleRequest (/home/subit_official_react/node_modules/next/dist/server/base-server.js:311:20)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+    at async NextNodeServer.renderToResponse (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1145:32)
+    at async NextNodeServer.pipe (/home/subit_official_react/node_modules/next/dist/server/base-server.js:634:25)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+    at async NextNodeServer.handleRequest (/home/subit_official_react/node_modules/next/dist/server/base-server.js:311:20)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/LogonCustomization /RestAPI/LogonCustomization
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+    at async NextNodeServer.renderToResponse (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1145:32)
+    at async NextNodeServer.pipe (/home/subit_official_react/node_modules/next/dist/server/base-server.js:634:25)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+    at async NextNodeServer.handleRequest (/home/subit_official_react/node_modules/next/dist/server/base-server.js:311:20)
+NormalizeError: Requested and resolved page mismatch: /./RestAPI/Connection /RestAPI/Connection
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+    at async NextNodeServer.renderToResponse (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1145:32)
+    at async NextNodeServer.pipe (/home/subit_official_react/node_modules/next/dist/server/base-server.js:634:25)
+NormalizeError: Requested and resolved page mismatch: /%0ASet-Cookie%3Acrlfinjection/.. /
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /%0ASet-Cookie%3Acrlfinjection/.. /
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /wp-content/plugins/./simple-image-manipulator/controller/download.php /wp-content/plugins/simple-image-manipulator/controller/download.php
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /wp-content/plugins/./simple-image-manipulator/controller/download.php /wp-content/plugins/simple-image-manipulator/controller/download.php
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+Done in 10469791.20s.
+yarn run v1.22.19
+$ next start --port=3001
+ready - started server on 0.0.0.0:3001, url: http://localhost:3001
+info  - SWC minify release candidate enabled. https://nextjs.link/swcmin
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../TeleConferenceService /defaultroot/TeleConferenceService
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+    at async NextNodeServer.handleRequest (/home/subit_official_react/node_modules/next/dist/server/base-server.js:311:20)
+NormalizeError: Requested and resolved page mismatch: /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../TeleConferenceService /defaultroot/TeleConferenceService
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+    at async NextNodeServer.renderToResponse (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1145:32)
+    at async NextNodeServer.pipe (/home/subit_official_react/node_modules/next/dist/server/base-server.js:634:25)
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /vpn/../vpns/cfg/smb.conf /vpns/cfg/smb.conf
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+NormalizeError: Requested and resolved page mismatch: /fileserver/a../../%08/..%08/.%08/%08%5C%5C /fileserver/%08/..%08/.%08/%08%5C%5C
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+NormalizeError: Requested and resolved page mismatch: /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../TeleConferenceService /defaultroot/TeleConferenceService
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at Object.getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at NextNodeServer.getPagePath (/home/subit_official_react/node_modules/next/dist/server/next-server.js:435:30)
+    at NextNodeServer.hasPage (/home/subit_official_react/node_modules/next/dist/server/base-server.js:537:28)
+    at memoizedPageChecker (/home/subit_official_react/node_modules/next/dist/server/router.js:61:37)
+    at Object.fn (/home/subit_official_react/node_modules/next/dist/server/router.js:138:39)
+    at Router.execute (/home/subit_official_react/node_modules/next/dist/server/router.js:222:52)
+    at async NextNodeServer.run (/home/subit_official_react/node_modules/next/dist/server/base-server.js:612:29)
+    at async NextNodeServer.handleRequest (/home/subit_official_react/node_modules/next/dist/server/base-server.js:311:20)
+NormalizeError: Requested and resolved page mismatch: /defaultroot/iWebOfficeSign/OfficeServer.jsp/../../TeleConferenceService /defaultroot/TeleConferenceService
+    at Object.normalizePagePath (/home/subit_official_react/node_modules/next/dist/shared/lib/page-path/normalize-page-path.js:14:15)
+    at getPagePath (/home/subit_official_react/node_modules/next/dist/server/require.js:23:86)
+    at Object.requirePage (/home/subit_official_react/node_modules/next/dist/server/require.js:52:22)
+    at /home/subit_official_react/node_modules/next/dist/server/load-components.js:56:50
+    at async Promise.all (index 2)
+    at async Object.loadComponents (/home/subit_official_react/node_modules/next/dist/server/load-components.js:53:49)
+    at async NextNodeServer.findPageComponents (/home/subit_official_react/node_modules/next/dist/server/next-server.js:451:36)
+    at async NextNodeServer.renderPageComponent (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1123:24)
+    at async NextNodeServer.renderToResponse (/home/subit_official_react/node_modules/next/dist/server/base-server.js:1145:32)
+    at async NextNodeServer.pipe (/home/subit_official_react/node_modules/next/dist/server/base-server.js:634:25)
+
+> subit_official_react@0.1.0 start
+> next start
+
+ready - started server on 0.0.0.0:3000, url: http://localhost:3000
+info  - SWC minify release candidate enabled. https://nextjs.link/swcmin
+Done in 14098898.35s.
+
+> subit_official_react@0.1.0 start
+> next start
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1372:16)
+    at listenInCluster (node:net:1420:12)
+    at doListen (node:net:1559:7)
+    at processTicksAndRejections (node:internal/process/task_queues:84:21) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
