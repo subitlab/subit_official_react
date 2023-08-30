@@ -4,10 +4,6 @@ import Router from "next/router";
 import { MenuOutlined } from "@ant-design/icons";
 import React from "react";
 
-const onClose = (e: any) => {
-    console.log(e, "I was closed");
-};
-
 const { Header } = Layout;
 
 const actions_title = [
@@ -35,23 +31,6 @@ export default function HeaderBar(props: any) {
                 <Actions select={props.select ? props.select : null}/>
                 <ActionsMenuBtn select={props.select ? props.select : null}/>
             </div>
-            <Alert
-                message="SubIT-2023秋季招新正在进行中!请点击右侧按钮或转到“加入我们”页面进一步了解-->"
-                type="warning"
-                closable
-                showIcon
-                action={
-                    <Button
-                        type="link"
-                        size="large"
-                        href="https://pkuschool.yuque.com/subit/kpft7t"
-                        target="_blank"
-                    >
-                        去详细了解➡️
-                    </Button>
-                }
-                onClose={ onClose }
-            />
         </Header>
     );
 }
