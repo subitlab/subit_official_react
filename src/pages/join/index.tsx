@@ -42,6 +42,16 @@ function JoinUsCard() {
                 >
                     常驻招新问卷（点我去看看&gt;&gt;）
                 </a>
+                <a
+                    className={JSC_style.link}
+                    href="https://pkuschool.yuque.com/subit/kpft7t"
+                    target="_blank"
+                >语雀招新中转站</a>
+                <a
+                    className={JSC_style.link}
+                    href="https://pkuschool.yuque.com/subit/kpft7t/about"
+                    target="_blank"
+                >社团介绍</a>
                 <p className={JSC_style.text_content}>另外，快去捕捉我们的社员吧（</p>
             </div>
             <div className={JSC_style.pic}></div>

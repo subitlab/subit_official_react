@@ -44,7 +44,8 @@ export default function HeaderBar(props: any) {
                     <Button
                         type="link"
                         size="large"
-                        href="/join"
+                        href="https://pkuschool.yuque.com/subit/kpft7t"
+                        target="_blank"
                     >
                         去详细了解➡️
                     </Button>
