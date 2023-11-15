@@ -18,6 +18,7 @@ class MemberList extends Component {
                 <h1 className={style.title}>历届社员列表</h1>
                 {
                     this.state.data.current.map((session, i) => (
+                        //每一届作为一个大的div，用session组件表示
                         <Session key={i} data={session}/>))
                 }
                 <h1 className={style.sessionTitle} style={{ marginTop:10 }}>以下为养老院·荣誉社员</h1>
@@ -48,6 +49,7 @@ class Session extends Component {
                         // gutter={{ xs: 8, sm: 16, md: 24, lg: 32 }}
                     >
                         {
+                            //每一个成员的信息放到一个小的div里
                             this.state.data.member.map((i)=>(<MemberCard key={i} data={i}/>))
                             //  this.ReSizeMemberCard(this.state.data.member)
                         }
