@@ -34,14 +34,6 @@ function JoinUsCard() {
                 <p className={JSC_style.text_content}>如果你想加入我们，SubIT每年会进行两次招新：</p>
                 <p className={JSC_style.text_b}>春季招新（每学年下半学期的3-4月）</p>
                 <p className={JSC_style.text_b}>秋季招新（每学年上半学期8-10月）</p>
-                <p className={JSC_style.text_content}>2023年秋季招新进行中，点击下方链接立即参与！</p>
-                <a
-                    className={JSC_style.link}
-                    href="https://forms.office.com/Pages/ResponsePage.aspx?id=dvGcSe515EmAwVKvzSjStSO8vWcCxT5Ai6EQbNHJpRpUMDIyVlozWVBSTUhVRVZSMjlVSVMyQUtTUi4u"
-                    target="_blank"
-                >
-                    常驻招新问卷（点我去看看&gt;&gt;）
-                </a>
                 <a
                     className={JSC_style.link}
                     href="https://pkuschool.yuque.com/subit/kpft7t"

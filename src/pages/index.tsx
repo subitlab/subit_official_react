@@ -11,9 +11,6 @@ import FindMemberSection from "../components/Home/FindMemberSection";
 
 const { Content } = Layout;
 
-const onClose = (e: any) => {
-    console.log(e, "I was closed");
-};
 
 export default function Home() {
     return (
@@ -22,23 +19,6 @@ export default function Home() {
             <Layout>
                 <HeaderBar></HeaderBar>
                 <Content className={[styles.content, styles.std_background].join(" ")}>
-                    <Alert
-                        message="SubIT-2023秋季招新正在进行中!请点击右侧按钮或转到“加入我们”页面进一步了解-->"
-                        type="warning"
-                        closable
-                        showIcon
-                        action={
-                            <Button
-                                type="primary"
-                                size="large"
-                                href="https://pkuschool.yuque.com/subit/kpft7t"
-                                target="_blank"
-                            >
-                                去详细了解➡️
-                            </Button>
-                        }
-                        onClose={ onClose }
-                    />
                     <Poster/>
                     <TwoPartDetail/>
                     <DutyDetail/>
